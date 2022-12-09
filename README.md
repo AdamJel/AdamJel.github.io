@@ -1,5 +1,13 @@
 # Adam Jelinek's e-CV
 
-hello from github pages
+{% include_relative docs/header.md %}
 
-{% include_relative docs/test_1.md %}
+{% include_relative docs/intro.md %}
+
+{% include_relative docs/experience.md %}
+
+{% include_relative docs/education.md %}
+
+{% include_relative docs/interests.md %}
+
+{% include_relative docs/footer.md %}
